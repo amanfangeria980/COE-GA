@@ -1,13 +1,17 @@
 import React from "react";
-import StickyHeader from "./components/StickyHeader";
+import { Link } from "react-router-dom";
+
 const App = () => {
     return (
-        <div>
-            <StickyHeader />
-            <main className="pt-20">
-                <h2 className="text-2xl p-4">Content Below the Header</h2>
-                <div className="h-screen"></div>
-            </main>
+        <div className="bg-pink-300 h-screen w-screen">
+            <div className="grid grid-cols-4 p-4">
+                <Link
+                    to="/component1"
+                    className="bg-black text-white p-2 rounded-lg h-52 w-52 flex items-center justify-center text-center"
+                >
+                    Dropdown and Sticky Header
+                </Link>
+            </div>
         </div>
     );
 };

@@ -36,7 +36,7 @@ const Dropdown = () => {
                 Menu
             </button>
             {isOpen && (
-                <ul className="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded shadow-lg">
+                <ul className="absolute left-0 mt-1 w-48 bg-white border border-gray-200 rounded shadow-lg">
                     <li>
                         <a
                             href="#"
