@@ -23,6 +23,12 @@ const App = () => {
                 >
                     Accessible Navbar
                 </Link>
+                <Link
+                    to="/component4"
+                    className="bg-black text-white p-2 rounded-lg h-52 w-52 flex items-center justify-center text-center"
+                >
+                    Accessible Responsive Hamburger Navbar Page
+                </Link>
             </div>
         </div>
     );

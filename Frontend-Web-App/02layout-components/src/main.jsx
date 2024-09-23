@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dropdown_StickyNavPage from "./pages/Dropdown_StickyNavPage.jsx";
 import ResponsiveLogoPage from "./pages/ResponsiveLogoPage.jsx";
 import AccessibleNavbarPage from "./pages/AccessibleNavbarPage.jsx";
+import AccessibleResponsiveHamburgerMenuPage from "./pages/AccessibleResponsiveHamburgerMenuPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
         path: "/component3",
         element: <AccessibleNavbarPage />,
+    },
+    {
+        path: "/component4",
+        element: <AccessibleResponsiveHamburgerMenuPage />,
     },
 ]);
 
