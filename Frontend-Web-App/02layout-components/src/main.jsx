@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dropdown_StickyNavPage from "./pages/Dropdown_StickyNavPage.jsx";
 import ResponsiveLogoPage from "./pages/ResponsiveLogoPage.jsx";
+import AccessibleNavbarPage from "./pages/AccessibleNavbarPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     {
         path: "/component2",
         element: <ResponsiveLogoPage />,
+    },
+    {
+        path: "/component3",
+        element: <AccessibleNavbarPage />,
     },
 ]);
 

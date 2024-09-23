@@ -17,6 +17,12 @@ const App = () => {
                 >
                     Responsive Logo
                 </Link>
+                <Link
+                    to="/component3"
+                    className="bg-black text-white p-2 rounded-lg h-52 w-52 flex items-center justify-center text-center"
+                >
+                    Accessible Navbar
+                </Link>
             </div>
         </div>
     );
