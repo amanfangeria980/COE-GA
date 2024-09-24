@@ -61,13 +61,13 @@ const AccessibleResponsiveHamburgerMenuPage = () => {
 
             {isOpen ? (
                 <LuUtensilsCrossed
-                    className="block md:hidden relative right-4 text-blue-800"
+                    className="block md:hidden fixed top-4 right-4 z-50 text-blue-800"
                     size={40}
                     onClick={() => setIsOpen(!isOpen)}
                 />
             ) : (
                 <GiHamburger
-                    className="block md:hidden relative right-4 text-blue-800"
+                    className="block md:hidden fixed top-4 right-4 z-50 text-blue-800"
                     size={40}
                     onClick={() => setIsOpen(!isOpen)}
                 />
@@ -78,7 +78,7 @@ const AccessibleResponsiveHamburgerMenuPage = () => {
             </ul>
 
             {isOpen && (
-                <ul className="absolute top-16 left-0 right-0 bg-yellow-200 flex flex-col items-center space-y-4 py-4 md:hidden z-50">
+                <ul className="fixed top-0 left-0 right-0 bottom-0 bg-yellow-200 flex flex-col items-center justify-center space-y-8 py-4 md:hidden z-40">
                     {menuItems}
                 </ul>
             )}
