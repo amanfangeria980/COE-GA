@@ -6,7 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dropdown_StickyNavPage from "./pages/Dropdown_StickyNavPage.jsx";
 import ResponsiveLogoPage from "./pages/ResponsiveLogoPage.jsx";
 import AccessibleNavbarPage from "./pages/AccessibleNavbarPage.jsx";
-import AccessibleResponsiveHamburgerMenuPage from "./pages/AccessibleResponsiveHamburgerMenuPage.jsx";
+import ResponsiveHamburgerMenuPage from "./pages/ResponsiveHamburgerMenuPage.jsx";
+import MultilevelDropdownPage from "./pages/MultilevelDropdownPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
     },
     {
         path: "/component4",
-        element: <AccessibleResponsiveHamburgerMenuPage />,
+        element: <ResponsiveHamburgerMenuPage />,
+    },
+    {
+        path: "/component5",
+        element: <MultilevelDropdownPage />,
     },
 ]);
 

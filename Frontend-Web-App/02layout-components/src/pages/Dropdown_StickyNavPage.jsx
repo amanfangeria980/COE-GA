@@ -1,4 +1,4 @@
-import StickyHeader from "../components/StickyHeader";
+import StickyHeader from "../extra_components/StickyHeader";
 
 const Dropdown_StickyNavPage = () => {
     return (

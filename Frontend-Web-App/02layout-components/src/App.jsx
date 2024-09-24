@@ -29,6 +29,12 @@ const App = () => {
                 >
                     Accessible Responsive Hamburger Navbar Page
                 </Link>
+                <Link
+                    to="/component5"
+                    className="bg-black text-white p-2 rounded-lg h-52 w-52 flex items-center justify-center text-center"
+                >
+                    Multilevel ShadCN Dropdown
+                </Link>
             </div>
         </div>
     );
