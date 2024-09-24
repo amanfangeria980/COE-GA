@@ -3,7 +3,7 @@
         // ...
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["./02layout-components/src/*"]
         }
         // ...
     }
