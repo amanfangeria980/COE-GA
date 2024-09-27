@@ -7,6 +7,7 @@ import MultilevelDropdownPage from "./pages/MultilevelDropdownPage";
 import DashboardPage from "./pages/DashboardPage";
 import ResponsiveHamburgerMenuPage from "./pages/ResponsiveHamburgerMenuPage";
 import LoginPage from "./pages/LoginPage";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
     {
         path: "/login",
         element: <LoginPage />,
+    },
+    {
+        path: "*",
+        element: <ErrorPage />,
     },
 ]);
 
