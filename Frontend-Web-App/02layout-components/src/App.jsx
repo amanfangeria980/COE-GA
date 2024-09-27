@@ -11,13 +11,17 @@ const pages = [
         title: "Accessible Responsive Hamburger Navbar Page",
     },
     { id: 5, path: "/component5", title: "Multilevel ShadCN Dropdown" },
-    // { id: 6, path: "/component6", title: "" },
+    {
+        id: 6,
+        path: "/dashboard",
+        title: "Redirect to previous page after login, using UseLocation and useNavigate",
+    },
 ];
 
 const App = () => {
     return (
         <div className="bg-pink-300 h-screen w-screen">
-            <div className="relative top-5 grid grid-cols-6 left-4">
+            <div className="relative top-5 grid md:grid-cols-6 grid-cols-1 left-4">
                 {pages.map((page) => (
                     <Link
                         key={page.id.toString()}

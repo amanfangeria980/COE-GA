@@ -4,6 +4,10 @@ import Dropdown_StickyNavPage from "./pages/Dropdown_StickyNavPage";
 import ResponsiveLogoPage from "./pages/ResponsiveLogoPage";
 import AccessibleNavbarPage from "./pages/AccessibleNavbarPage";
 import MultilevelDropdownPage from "./pages/MultilevelDropdownPage";
+import DashboardPage from "./pages/DashboardPage";
+import ResponsiveHamburgerMenuPage from "./pages/ResponsiveHamburgerMenuPage";
+import LoginPage from "./pages/LoginPage";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -29,6 +33,14 @@ const router = createBrowserRouter([
         path: "/component5",
         element: <MultilevelDropdownPage />,
     },
+    {
+        path: "/dashboard",
+        element: <DashboardPage />,
+    },
+    {
+        path: "/login",
+        element: <LoginPage />,
+    },
 ]);
 
-export const router;
+export default router;
